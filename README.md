@@ -46,5 +46,5 @@ ADDED CODES TO main.c:
   another python file and in python, the numpy module will help multiply the matrix and vectors which has already been read from the text document and stored, and if the multiplication result
   is not equal to bb, it will return a message saying that it is false. Otherwise, it returns true.
   
-  That is the idea tho, but sadly it returning segmentation error and im still working on a fix, when i do find a fix, this will be updated to something more satisfactory.
+  That is the idea tho, but sadly it's returning segmentation fault (core dumped) and i'm still working on a fix, when i do find a fix, this will be updated to something more satisfactory.
   [ i have already made free() on all possible variables at the ending, does not help :( ]
